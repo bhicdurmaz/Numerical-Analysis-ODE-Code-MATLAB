@@ -24,8 +24,5 @@ function [T Y] = myeuler(f,tspan,y0,n);
         t = t + h;
         T = [T; t];  
     end
-    %plot(T,Y(:,1))
-    %plot(Y(:,1),Y(:,2))
-   % y_ex=T-2+3*exp(-T./2);
-    %err=sqrt(sum((Y-y_ex).^2))
+   
 end
